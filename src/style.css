@@ -1,0 +1,175 @@
+
+body{
+    background: #F5F5F5;
+}
+header {
+    position: absolute;
+    width: 1440px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+    background: #0E0F1C;
+}
+
+.nav-text{
+    position: absolute;
+    width: 923px;
+    height: 64px;
+    left: 292px;
+    top: 0px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 125.52%;
+    /* or 60px */
+
+    text-align: center;
+    letter-spacing: 0.085em;
+
+    color: #FFFFFF;
+}
+
+.logo{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 144px;
+    top: 15px;
+
+    background: url(/img/logo.jpg);
+    border-radius: 64px;
+}
+
+nav{
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    margin-top: 150px;
+
+
+    background:#0E0F1C;
+}
+
+#nav3, #nav3 li {
+    margin: 0;
+    padding: 0;
+}
+#nav3 {
+    text-align: center; /* пункты и текст горизонтально по центру */
+}
+#nav3 li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#nav3 a {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #0077C2;
+
+    width: 178px;
+    height: 60px;
+    left: 631px;
+    top: 127px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 125.52%;
+    /* or 60px */
+
+    letter-spacing: 0.055em;
+
+}
+
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 129px;
+    left: 0px;
+    top: 895px;
+
+    background: #0E0F1C;
+}
+
+h4{
+
+    position: absolute;
+    width: 158px;
+    height: 24px;
+    left: 23px;
+
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+
+}
+
+h6{
+    position: absolute;
+    width: 237px;
+    height: 24px;
+    left: 35px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+    text-align: justify;
+
+    color: #FFFFFF;}
+
+body {
+    padding: 10px;
+}
+
+#carouselExampleControls{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#menu-div{
+    background-color: #0E0F1C;
+    /*display: inline-block;*/
+}
+.menu{
+    margin-top: 220px;
+}
+.menu-li{
+    background-color: #0077C2;
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.txt{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125.52%;
+    /* or 25px */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+}
