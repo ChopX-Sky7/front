@@ -5,7 +5,7 @@ body{
 header {
     position: absolute;
     width: 1440px;
-    height: 160px;
+    height: 120px;
     left: 0px;
     top: 0px;
     background: #0E0F1C;
@@ -38,8 +38,9 @@ header {
     height: 128px;
     left: 144px;
     top: 15px;
-
-    background: url(/img/logo.jpg);
+    z-index: 6;
+    background: url(/img/svg/logo.svg);
+   /* background-color: #0E0F1C;*/
     border-radius: 64px;
 }
 
@@ -48,7 +49,7 @@ nav{
     width: 1440px;
     height: 60px;
     left: 0px;
-    margin-top: 150px;
+    margin-top: 120px;
 
 
     background:#0E0F1C;
@@ -93,7 +94,7 @@ footer{
     width: 1440px;
     height: 129px;
     left: 0px;
-    top: 895px;
+    top: 750px;
 
     background: #0E0F1C;
 }
@@ -172,4 +173,49 @@ body {
     text-align: justify;
 
     color: #FFFFFF;
+}
+
+
+.slider {
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+    margin-top: 200px;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: black;
+
+}
+
+.prev {
+    left: 10%;
+}
+
+.next {
+    right: 10%;
 }
