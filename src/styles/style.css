@@ -1,25 +1,31 @@
-
+a{
+    text-decoration: none;
+}
+html{
+    overflow-x: hidden;
+}
 body{
     background: #F5F5F5;
-}
-header {
-    position: absolute;
-    width: 1440px;
-    height: 120px;
-    left: 0px;
-    top: 0px;
-    background: #0E0F1C;
+   /* width: 1366px;*/
 }
 
-.nav-text{
+header {
+    position: absolute;
+    width: 1366px;
+    height: 120px;
+    left: 0;
+    top: 0;
+    background: #0E0F1C;
+}
+.head-text{
     position: absolute;
     width: 923px;
     height: 64px;
     left: 292px;
-    top: 0px;
+    top: 0;
     padding: 10px;
     margin: 10px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -44,23 +50,24 @@ header {
     border-radius: 64px;
 }
 
+
 nav{
     position: absolute;
-    width: 1440px;
+    width: 1366px;
     height: 60px;
-    left: 0px;
+    left: 0;
     margin-top: 120px;
 
 
     background:#0E0F1C;
 }
-
 #nav3, #nav3 li {
     margin: 0;
     padding: 0;
 }
 #nav3 {
     text-align: center; /* пункты и текст горизонтально по центру */
+
 }
 #nav3 li {
     display: inline-block;
@@ -72,17 +79,17 @@ nav{
     color: #FFFFFF;
     text-decoration: none;
     background-color: #0077C2;
-
+    border-radius: 8px;
     width: 178px;
-    height: 60px;
-    left: 631px;
-    top: 127px;
+    height: 45px;
+    margin-top: 15px;
 
-    font-family: 'Times New Roman';
+
+    font-family: 'Times New Roman', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
-    line-height: 125.52%;
+    font-size: 32px;
+    /*line-height: 125.52%;*/
     /* or 60px */
 
     letter-spacing: 0.055em;
@@ -91,23 +98,22 @@ nav{
 
 footer{
     position: absolute;
-    width: 1440px;
-    height: 129px;
-    left: 0px;
+    width: 1366px;
+    left: 0;
     top: 750px;
 
     background: #0E0F1C;
 }
 
-h4{
-
+.footer-h4 {
+    margin: 0;
     position: absolute;
     width: 158px;
     height: 24px;
     left: 23px;
 
 
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -120,31 +126,22 @@ h4{
 
 }
 
-h6{
+footer a{
     position: absolute;
     width: 237px;
     height: 24px;
     left: 35px;
 
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
-    /* identical to box height, or 24px */
-
     text-align: justify;
-
     color: #FFFFFF;}
 
 body {
     padding: 10px;
-}
-
-#carouselExampleControls{
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 #menu-div{
@@ -163,7 +160,7 @@ body {
 }
 
 .txt{
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -179,6 +176,7 @@ body {
 .slider {
     overflow: hidden;
     max-width: 100%;
+    width: 110%;
     position: relative;
     margin-top: 200px;
     height: 450px;
@@ -214,8 +212,67 @@ body {
 
 .prev {
     left: 10%;
+    background-image: url("/img/svg/arrow_prev.svg");
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 37px;
 }
 
 .next {
     right: 10%;
+    background-image: url("/img/svg/arrow_next.svg");
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 37px;
+}
+
+.footer-links-center{
+    width: 300px;
+    margin-left: 250px;
+    bottom: 65px;
+    text-align: center;
+    height: 150px;
+
+
+}
+
+.footer-links-center a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.52%;
+    margin-left: 250px;
+    letter-spacing: 0.055em;
+}
+.footer-div-left{
+    width: 200px;
+}
+footer{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.footer-div-right h4{
+    color: #FFFFFF;
+    font-family: 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.52%;
+    letter-spacing: 0.055em;
+    opacity: 0.2;
+}
+
+.footer-div-right img {
+    opacity: 0.2;
+}
+
+.footer-div-right{
+    width: 200px;
+    right: 120px;
+    position: relative;
+    display: flex;
+    text-align: right;
 }

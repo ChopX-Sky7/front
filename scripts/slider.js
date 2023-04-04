@@ -3,11 +3,8 @@ const slides = document.getElementsByClassName("slide");
 const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
 
-
-console.log(slides);
-
 document.addEventListener("DOMContentLoaded", function (){
-  setTimeout(showSlide(0), 5000);
+ showSlide(0);
 });
 function showSlide(n) {
     slides[n].classList.add("active");
